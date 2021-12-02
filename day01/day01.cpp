@@ -7,7 +7,8 @@ int numIncreasingValues(std::vector<int> values)
     int numIncreasing = 0;
     int last = values[0];
 
-    for (int i = 1; i < values.size(); i++) {
+    for (int i = 1; i < values.size(); i++)
+    {
         if (values[i] > last) numIncreasing++;
         
         last = values[i];
@@ -23,7 +24,8 @@ int numIncreasingWindow(std::vector<int> values, int window)
     
     for (int i = 0; i < window; i++) lastWindow += values[i];
     
-    for (int i = 1; i < values.size()-window+1; i++) {
+    for (int i = 1; i < values.size()-window+1; i++)
+    {
         int currentWindow = 0;
 
         for (int w = 0; w < window; w++) currentWindow += values[i+w];
