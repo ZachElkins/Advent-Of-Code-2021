@@ -8,6 +8,6 @@ _ex. day01_
 
 Navigate to the `day01/` directory
 ```bash
-g++ -o day01.out day01.cpp
+g++ -std=c++11 day01.cpp -o day01.out
 ./day01.out
 ```
