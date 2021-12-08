@@ -3,7 +3,6 @@
 #include <vector>
 #include <sstream>
 #include <set>
-#include "../helpers/BigInt.hpp"
 
 struct Signal
 {
@@ -247,6 +246,6 @@ int main()
     int finalValue = 0;
     for (int i = 0; i < outputValues.size(); i++) { finalValue += outputValues[i]; }
     std::cout << "Part 2:\nThe sum of the ouputs is " << finalValue << "." << std::endl;
-    
+
     return 0;
 }
