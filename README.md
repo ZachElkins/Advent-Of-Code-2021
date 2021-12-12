@@ -4,10 +4,16 @@ Completing daily the [Advent of Code](https://adventofcode.com/2021) challanges 
 
 ### Compile and run the code yourself:
 
-_ex. day01_
 
+_day01 -> day10_
 Navigate to the `day01/` directory
 ```bash
 g++ -std=c++11 day01.cpp -o day01.out
 ./day01.out
+```
+For the sake of time I've decided to switch to python
+
+_day12 -> _
+```bash
+python3 day12.py {part}
 ```
