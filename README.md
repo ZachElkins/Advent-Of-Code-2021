@@ -13,7 +13,7 @@ g++ -std=c++11 day01.cpp -o day01.out
 ```
 For the sake of time I've decided to switch to python
 
-_day12 -> _
+_day12 -> dayXX_
 ```bash
 python3 day12.py {part}
 ```
