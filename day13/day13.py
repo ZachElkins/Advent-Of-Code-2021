@@ -76,7 +76,6 @@ def main(part):
 
     if part == 2 or part == -1:
         folded_dots = all_folds(dots.copy(), folds)
-        # print_dots(one_fold)
         print(f"Part 2:\nThe code is:") #FGKCKBZG
         print_dots(folded_dots)
 
