@@ -1,7 +1,3 @@
-
-from collections import defaultdict
-from typing import DefaultDict
-
 def parse_input(filename):
     template = []
     rules = []
